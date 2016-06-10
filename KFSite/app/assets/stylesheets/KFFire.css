@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+html{
+
+	font-family: Verdana, Geneva, sans-serif;
+}
+h1{
+	margin: 0px;
+}
+h2{
+	margin: 0px;
+}
+body{
+	margin: 0px;
+}
+span{
+	border-radius: 50%;
+}
+.Header{
+   	width: 100%;
+   	height: 400px;
+   	background-size: 50%;
+   	background-image: url("TruckOnFire.jpg");
+   	background-repeat: no-repeat;
+   	background-color: black;
+   	background-position: center;
+   	position: relative;
+}
+
+.Text-Center{
+	padding-top: 25px;
+	text-align: center;
+	color: white;
+}
+
+.twitchlive{
+	float: left;
+	position: absolute;
+	bottom: 3px;
+}
+.Body{
+	background-color: #643da7;
+	height: 100%;
+}
+.Content{
+	width: 20%;
+	margin:0 auto;
+	padding-bottom: 25px;
+}
+.BurningHeader{
+	text-align: center;
+	padding: 10px;
+}
+.headerbar{
+	background-color: #17141f;
+	height:40px;
+	position: relative;
+	box-shadow: rgba(0,0,0, 0.8) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.8) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.8) 0px 0px 8px; 
+}
+.poll{
+	border: 2px solid black;
+	padding-left: 5%;
+	outline: 0;
+	background: #3a3f40;
+	color: white;
+	box-shadow: rgba(0,0,0, 0.8) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.8) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.8) 0px 0px 8px;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;  
+}
+.block{
+	display: block;
+}
+.submit input {
+
+	width: auto;
+	height: 22px;
+	background: #17141f; 
+    border: 0; 
+    font-size: 14px; 
+    color: #FFFFFF; 
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px; 
+}
+input:hover,input:focus{ 
+    background-color: #617798; 
+    } 
+
+span:hover{
+	background-color: #617798; 
+}
